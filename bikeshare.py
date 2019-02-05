@@ -5,7 +5,7 @@ Created on Thu Jan 10 08:13:34 2019
 @author: fjehlik
 
 The following project analyzes bikeshare data from three city and returns simplified statistical information on the 
-programs. 
+programs.  
 
 CITATIONS:
    1. Udacity Bikeshare starter source code 'bikeshare_2.py' 
@@ -37,7 +37,7 @@ import numpy as np
 import pandas as pd
 np.random.seed(72)
 
-os.chdir(r'C:\Users\fjehlik\Desktop\udacity\02 Programming for Data Science\04 Introduction to python\Project')
+os.chdir(r'C:\Users\fjehlik\Desktop\udacity\udacity-git-course\pdsnd_github')
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -102,7 +102,7 @@ def load_data(city, month, day):
     """
 
     # Change the directory to where the city files are stored. 
-    os.chdir(r'C:\Users\fjehlik\Desktop\udacity\02 Programming for Data Science\04 Introduction to python\Project')
+    os.chdir(r'C:\Users\fjehlik\Desktop\udacity\udacity-git-course\pdsnd_github')
     
     # removes the spaces from the New York City csv
     if city == 'new york city':
