@@ -115,13 +115,11 @@ def load_data(city, month, day):
         
 
     # Asks the user if they wish to view lines of the data set   
-    i = 0
     y = 5
     while True:
-        view_y_n = input('Would you like to view five lines of the dataset (yes/no)? ').lower()
+        view_y_n = input('Would you like to view the first {} lines of the dataset (yes/no)? '.format(y)).lower()
         if view_y_n == 'yes' or view_y_n == 'y':        
-            print(df.iloc[i:y])
-            i += 5
+            print(df.iloc[1:y+1])
             y +=5
         else:
             break
