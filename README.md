@@ -8,16 +8,20 @@ Udacity Bikeshare project
 The following project analyzes bikeshare data from three city and returns simplified statistical information on the
 programs.
 
-Asks user to specify a city, month, and day to analyze. Also, the program asks the user if they want to reduce the file size
-by eliminating rows of data.
-Users have the choice to select a city and time period to analyze.  
-The three cities are Chicago, New York, and Washington DC
-The data was collected from January through June.     
+INPUT:
+Asks user to specify a city, month, and day to analyze. Also, the program asks the user if they want to reduce the file size by eliminating rows of data.
+
+Users have the choice to select a city and time period to analyze.  The three cities are Chicago, New York, and Washington DC. The data was collected from January through June.     
+
 In this program the user is asked if they wish to reduce the size of the file they are analyzing.
-Rather than by simply removing data from the beginning or end of the dataframe, this code randomly removes lines of data.
-This was done as to not possibly bias the time based analysis as times of month, week, etc can have an impact on the results.
-By randomly removing lines the reduced data set would be expected to be a better representation of the time period while simultaneously reducing the total
-data output.
+Rather than by simply removing data from the beginning or end of the dataframe, this code randomly removes lines of data. This was done as to not possibly bias the time based analysis as times of month, week, etc can have an impact on the results. By randomly removing lines the reduced data set would be expected to be a better representation of the time period while simultaneously reducing the total data output.
+
+OUTPUT:
+Statistical data on:
+    -timings stats on most popular times of travel
+    -timings stats (most popular start, end, and combined stop end stations)   
+    -stats on total aggregate trip times and average trip times per customer (note: Washington stats excluded)
+    -simplified age and gender stats on users of the programs
 
 ### Files used
 chicago.csv
