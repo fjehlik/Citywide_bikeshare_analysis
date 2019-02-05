@@ -24,9 +24,9 @@ Statistical data on:
     -simplified age and gender stats on users of the programs
 
 ### Files used
-chicago.csv
-washington.csv
-new_york_city.csv
+chicago.csv \n
+washington.csv \n
+new_york_city.csv \n
 
 ### Credits
 1. Udacity Bikeshare starter source code 'bikeshare_2.py'
