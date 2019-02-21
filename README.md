@@ -2,7 +2,7 @@
 Created on Thu Jan 10 08:13:34 2019
 
 ### Project Title
-Udacity Bikeshare project
+Bikeshare project
 
 ### Description
 The following project analyzes bikeshare data from three city and returns simplified statistical information on the
